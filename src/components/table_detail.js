@@ -16,20 +16,7 @@ class TableDetail extends Component {
         </thead>
         <tbody>
           <AddRow
-            conceptText="Malicia"
-            quantity="x 1"
-            size="Combo"
-            costQuantity="$65"
-            name="a"
-            value="65"
-          />
-          <AddRow
-            conceptText="Mango"
-            quantity="x 1"
-            size="-"
-            costQuantity="$45"
-            name="b"
-            value="45"
+            completeArray={this.props.completeArray}
           />
         </tbody>
       </table>

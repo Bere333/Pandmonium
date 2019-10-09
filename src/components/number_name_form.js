@@ -43,6 +43,7 @@ class FormNameNumber extends Component {
           btntext="ABRIR MESA"
           name={this.state.name}
           num={this.state.num}
+          nametable={this.props.nametable}
           ruta={"/Menu"}
         />
       </form>

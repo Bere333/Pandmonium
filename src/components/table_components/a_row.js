@@ -4,12 +4,13 @@ class AddRow extends Component {
   render() {
     return (
       <tr>
-        <td>{this.props.conceptText}</td>
-        <td>{this.props.size}</td>
-        <td>{this.props.quantity}</td>
-        <td className="cost" value={this.props.value} name={this.props.name}>
-          {this.props.costQuantity}
-        </td>
+        
+        <td>{this.props.completeArray}</td>
+        {/* {this.props.completeArray.map((x,index)=>{
+          return(<p key={index}>{x}</p>);
+        })} */}
+
+        
       </tr>
     );
   }

@@ -7,7 +7,7 @@ class AccountPerGuest extends Component {
     return (
       <div>
         <div className="table-detail-guest">
-          <TableDetail />
+          <TableDetail completeArray={this.props.completeArray}/>
         </div>
 
         <FormTotal classCSS="total" />

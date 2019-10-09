@@ -30,7 +30,7 @@ class BtnSaveOrder extends Component {
         dateHour: strHour,
         name:localStorage.getItem('name'),
         num:localStorage.getItem('num'),
-        table:localStorage.getItem('num-mesa'),
+        table:localStorage.getItem('nametable'),
         completeArray:localStorage.getItem('orden'),
         pendiente:status
       })

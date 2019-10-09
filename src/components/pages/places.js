@@ -115,9 +115,9 @@ class Places extends Component {
 
         <GreenRectangle
           classCSS="rectangle-tabar-selection"
-          place={this.state.number}
+          nametable={this.state.number}
         />
-        <FormNameNumber classCSS="people-name-number" />
+        <FormNameNumber classCSS="people-name-number" nametable={this.state.number}/>
       </div>
     );
   }
