@@ -13,12 +13,12 @@ class ShowPedido extends Component {
       <div className="people-number-detail">
       <span className="label-detail">{this.props.num} </span>
       <span className="data-detail">
-        {}{/* Aquí tiene que cambiar el número */}
+       
       </span>
       <br></br>
       <span className="label-detail">{this.props.name}</span>
       <span className="data-detail">
-        Tania{/* Aquí tiene que cambiar el nombre */}
+        
        </span>
     </div>
        <div className="table-detail-container">
