@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BtnGreen from "../components/btn_green";
+import Pagar from "../components/pagar";
 
 class FormTotal extends Component {
   render() {
@@ -10,7 +10,7 @@ class FormTotal extends Component {
           110
           <output name="x" htmlFor="a b"></output>
         </span>
-        <BtnGreen btntext="PAGAR" />
+        <Pagar btntext="PAGAR" ruta={'/AccountList'}/>
       </form>
     );
   }

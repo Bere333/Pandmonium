@@ -36,10 +36,7 @@ class BtnSaveOrder extends Component {
       })
         .then((docRef) => {
             console.log("Document written with ID: ", docRef.id);
-            this.setState({valid:true})
-            
-            
-            
+            this.setState({valid:true})    
         })
         .catch((error) => {
             console.error("Error adding document: ", error);

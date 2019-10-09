@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 // import * as firebase from 'firebase'
 
 
-class BtnGreen extends Component {
+class Pagar extends Component {
   
  
   onClick = e =>{
@@ -11,16 +11,11 @@ class BtnGreen extends Component {
           
     e.preventDefault();
     const {history} = this.props
-      localStorage.setItem('name', JSON.stringify(this.props.name));
-      localStorage.setItem('num', JSON.stringify(this.props.num));
-      localStorage.setItem('nametable', JSON.stringify(this.props.nametable));
+      
       history.push(this.props.ruta);
 
    }
      
-    
-        
-
   render() {
     return (
       
@@ -35,4 +30,4 @@ class BtnGreen extends Component {
   }
 }
 
-export default withRouter(BtnGreen);
+export default withRouter(Pagar);
