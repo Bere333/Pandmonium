@@ -8,7 +8,7 @@ class FormTotal extends Component {
         <label>TOTAL $</label>
         <span className="total-input">
           110
-          <output name="x" for="a b"></output>
+          <output name="x" htmlFor="a b"></output>
         </span>
         <BtnGreen btntext="PAGAR" />
       </form>

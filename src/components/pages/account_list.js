@@ -13,7 +13,6 @@ class AccountList extends Component {
   }
 
   componentWillMount = () => {
-    console.log('hola')
     const db = firebase.firestore(); 
      const pedidosRef = db.collection('pedidos');   
      pedidosRef.where('pendiente', '==', true )   
@@ -25,9 +24,7 @@ class AccountList extends Component {
          table.push(doc.data().table)
         this.setState({
           table:table
-        })
-               console.log(doc.data().table);
-                 
+        })                 
        })
     })
 }

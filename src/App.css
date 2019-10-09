@@ -257,7 +257,7 @@ table {
   border: transparent;
   outline: 0px;
   text-align: left;
-  color: white;
+  color: #0e6642;
 }
 
 /* Sección de registro de lugar y numero de personas */
@@ -331,7 +331,7 @@ table {
   border: transparent;
   outline: 0px;
   margin-top: 13vh;
-  color: white;
+  color: #0e6642;
 }
 
 .people-number-detail {
@@ -346,8 +346,9 @@ table {
 
 /* Tabla de detalle de consumo de comensal */
 .diner-rectangle {
-  color: #0e6642;
+  color: #0c6573;
   font-weight: 700;
+  border-radius: 25px;
 }
 .people-number-detail label {
   margin-right: 20px;
@@ -430,7 +431,7 @@ td img {
 
 /* SECCIÓN LISTA DE CUENTAS */
 .open-account {
-  margin-top: 17vh;
+  margin-top: 13vh;
 }
 .rectangle-account {
   width: 100%;
@@ -444,7 +445,7 @@ td img {
   border-radius: 20px;
   border: transparent;
   outline: 0px;
-  color: white;
+  color: #0e6642;
 }
 
 /* SECCIÓN MENÚ */
@@ -679,4 +680,218 @@ table {
 
 .close {
   margin-top: 7vh;
+}
+
+@media screen and (max-width: 414px) {
+  .logo-app {
+    margin-top: 3vh;
+  }
+
+  .greeting-login {
+    font-size: 47px;
+    margin-top: 3vh;
+  }
+  .input-login {
+    height: 44px;
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .unregistrer-msn {
+    width: 318px;
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .btn-green {
+    width: 50vw;
+    height: 41px;
+    margin-top: 11px;
+    margin-bottom: 0vh;
+    font-size: 29px;
+  }
+
+  .navbar {
+    height: 13vh;
+    padding: 9px;
+  }
+
+  .bm-burger-button {
+    width: 31px;
+    height: 25px;
+    left: 21px;
+    top: 4vh;
+  }
+
+  .logo-nav {
+    width: 14vw;
+    left: 1vw;
+  }
+
+  .bars-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .table-btn {
+    width: 74px;
+    height: 53px;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .to-go-btn {
+    width: 74px;
+    height: 57px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
+  .rectangle-tabar-selection {
+    height: 45px;
+    padding: 4px 23px;
+    font-size: 21px;
+  }
+
+  .people-name-number label {
+    margin-right: 16px;
+    font-size: 16px;
+  }
+
+  .input-spiner {
+    width: 15vw;
+    height: 39px;
+    border: solid #a5d8e3 6px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+
+  .input-name {
+    width: 75vw;
+    border: solid #a5d8e3 6px;
+    border-radius: 12px;
+    margin-top: 8px;
+    font-size: 20px;
+  }
+
+  .bm-item {
+    font-size: 23px;
+  }
+
+  .menu-draws button {
+    width: 75px;
+    height: 75px;
+    padding: 16px;
+    margin: 6px 10px;
+    border-radius: 18px;
+  }
+
+  table {
+    font-size: 15px;
+  }
+
+  .tag-menu-product thead tr th {
+    font-size: 17px;
+  }
+
+  .options-menu {
+    width: 27vw;
+    font-size: 12px;
+    padding-left: 5px;
+    border: solid #a5d8e3 6px;
+    border-radius: 28px;
+  }
+
+  .pizza-input {
+    width: 47px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 22px;
+    border: solid #a5d8e3 6px;
+  }
+  td {
+    padding: 0px;
+  }
+
+  .btn-inc-dec {
+    width: 10px;
+    height: 10px;
+    font-size: 34px;
+    font-weight: 900;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .comments {
+    width: 67vw;
+    height: 11vh;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #a5d8e3 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  td img {
+    width: 27px;
+  }
+
+  .rectangle-account {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 9px;
+    font-size: 19px;
+  }
+
+  .rectangle-tabar-detail {
+    margin-top: 113px;
+    margin-bottom: 10px;
+    padding: 9px;
+    font-size: 19px;
+    height: 45px;
+  }
+
+  .people-number-detail {
+    height: 57px;
+    text-align: end;
+    padding-top: 4px;
+  }
+
+  .label-detail {
+    font-size: 19px;
+  }
+
+  .data-detail {
+    font-size: 19px;
+  }
+
+  .total {
+    font-size: 22px;
+    padding: 20px;
+  }
+
+  .total-input {
+    width: 186px;
+    height: 37px;
+    border: solid #a5d8e3 6px;
+    border-radius: 15px;
+    margin-right: 40px;
+    font-size: 22px;
+    padding: 11px;
+  }
+
+  .total label {
+    margin-right: 7px;
+  }
+
+  .total button {
+    width: 207px;
+    margin-top: 35px;
+  }
 }
