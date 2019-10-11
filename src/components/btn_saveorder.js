@@ -22,7 +22,7 @@ class BtnSaveOrder extends Component {
       const db = firebase.firestore();
       const strDate = `${currentDate.getFullYear()}-${currentDate.getMonth()+1}-${currentDate.getDate()}`
       const strHour=`${currentDate.getHours()}-${currentDate.getMinutes()} hrs`
-      let status = true
+      // let status = true
       
         db.collection('pedidos').add({
             pedidos:"Pandemonium",
@@ -32,11 +32,14 @@ class BtnSaveOrder extends Component {
         num:localStorage.getItem('num'),
         table:localStorage.getItem('nametable'),
         completeArray:localStorage.getItem('orden'),
-        pendiente:status
+        pendiente:true
       })
         .then((docRef) => {
             console.log("Document written with ID: ", docRef.id);
-            this.setState({valid:true})    
+            this.setState({valid:true})  
+            localStorage.setItem('id', JSON.stringify(docRef.id))  
+            console.log(localStorage.getItem('id'));
+            
         })
         .catch((error) => {
             console.error("Error adding document: ", error);
